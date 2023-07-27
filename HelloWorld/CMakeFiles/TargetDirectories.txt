@@ -1,0 +1,3 @@
+/home/wilfred/Desktop/github/CPP-TUTS/HelloWorld/CMakeFiles/rebuild_cache.dir
+/home/wilfred/Desktop/github/CPP-TUTS/HelloWorld/CMakeFiles/HelloWorld.dir
+/home/wilfred/Desktop/github/CPP-TUTS/HelloWorld/CMakeFiles/edit_cache.dir
