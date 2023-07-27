@@ -16,5 +16,7 @@ CMake is an extensible, open-source system that manages the build process in an 
     * ```add_executable```: adds executable target with given name
     * ```add_library```: adds a library target to be build from listed source files
     * ```add_subdirectory```: adds a subdirectory to build
+    * ```file```: Read content from a file called <filename> and store it in a <variable>. Optionally start from the given <offset> and read at most <max-in> bytes. The HEX option causes data to be converted to a hexadecimal representation (useful for binary data). If the HEX option is specified, letters in the output (a through f) are in lowercase.
+       * ```file(READ <filename> <variable> [OFFSET <offset>] [LIMIT <max-in>] [HEX])```
 
 ```PROJECT_SOURCE_DIR```: contains the full path to the root of your project source directory, i.e. to the nearest directory where ```CMakeLists.txt``` contains the ```PROJECT()``` command.
