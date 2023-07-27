@@ -10,5 +10,11 @@ CMake is an extensible, open-source system that manages the build process in an 
 ## Creating the CMake config file
 
 1. CMakeLists.txt file is placed at the source of the project you want to build.
+2. Some commonly used commands
+    * ```message```: prints given message
+    * ```cmake_minimum_required```: sets minimum version of cmake to be used
+    * ```add_executable```: adds executable target with given name
+    * ```add_library```: adds a library target to be build from listed source files
+    * ```add_subdirectory```: adds a subdirectory to build
 
 ```PROJECT_SOURCE_DIR```: contains the full path to the root of your project source directory, i.e. to the nearest directory where ```CMakeLists.txt``` contains the ```PROJECT()``` command.
