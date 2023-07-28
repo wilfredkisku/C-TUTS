@@ -33,7 +33,7 @@ The resultant intermediate file "hello.i" contains the expanded source code.
 The -S option specifies to produce assembly code, instead of object code. The resultant assembly file is "hello.s".
 
 * Assembly: The assembler (as.exe) converts the assembly code into machine code in the object file "hello.o".
-   * ``as -o hello.o hello.s```
+   * ```as -o hello.o hello.s```
 
 *  Linker: Finally, the linker (ld.exe) links the object code with the library code to produce an executable file "hello.exe".
    * ```ld -o hello.exe hello.o ...libraries...```
