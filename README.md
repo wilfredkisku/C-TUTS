@@ -19,4 +19,5 @@ CMake is an extensible, open-source system that manages the build process in an 
     * ```file```: Read content from a file called <filename> and store it in a <variable>. Optionally start from the given <offset> and read at most <max-in> bytes. The HEX option causes data to be converted to a hexadecimal representation (useful for binary data). If the HEX option is specified, letters in the output (a through f) are in lowercase.
        * ```file(READ <filename> <variable> [OFFSET <offset>] [LIMIT <max-in>] [HEX])```
 
+```GLOB``` will generate a list of all files that match the globbing expressions and store it into the variable. 
 ```PROJECT_SOURCE_DIR```: contains the full path to the root of your project source directory, i.e. to the nearest directory where ```CMakeLists.txt``` contains the ```PROJECT()``` command.
