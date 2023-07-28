@@ -25,7 +25,7 @@ CMake is an extensible, open-source system that manages the build process in an 
 GCC compiles a C/C++ program into executable in 4 steps as shown in the above diagram. For example, a "gcc -o hello.exe hello.c" is carried out as follows:
 
 * Pre-processing: via the GNU C Preprocessor (cpp.exe), which includes the headers (#include) and expands the macros (#define).
-   * ```cpp hello.c > hello.i```/
+   * ```cpp hello.c > hello.i``` <br />
 The resultant intermediate file "hello.i" contains the expanded source code.
 
 * Compilation: The compiler compiles the pre-processed source code into assembly code for a specific processor.
